@@ -1,0 +1,36 @@
+
+.status {
+  margin-bottom: 10px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.description {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.draw {
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+}
+
+.winner {
+  color: blue;
+}
+
+.moves-history-title {
+  margin-left: 16px;
+}
+
+.square-winner {
+  color: green;
+}
