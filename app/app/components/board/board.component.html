@@ -1,0 +1,9 @@
+<div>
+  <div class="board-row" *ngFor="let row of [[0,1,2], [3,4,5], [6,7,8]]">
+    <app-square
+      *ngFor="let column of row"
+      [square]="squares[column]"
+      (onSquareClick)="onSquareClick.emit($event)"
+    ></app-square>
+  </div>
+</div>
