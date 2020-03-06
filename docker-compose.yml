@@ -1,0 +1,11 @@
+version: "3"
+services:
+  angular:
+    container_name: angular-cli
+    build:
+      context: ./docker/angular
+    image: quickstart-angular
+    volumes:
+      - "./app:/app"
+    ports:
+      - "4200:4200"
