@@ -1,0 +1,4 @@
+<button
+  class="square"
+  (click)="onSquareClick.emit(square)"
+><span [ngStyle]="{color: square.color}">{{square.label}}</span></button>
